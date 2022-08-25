@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.header-area {
+    background-image: url(image/header\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-position: 100% 0%;
+}
+.header-area .menu1 {
+    padding-top: 30px;
+}
+.header-area .smart {
+    width: 47%;
+    float: left;
+}
+.smart a img {
+    margin-left: 15px;
+}
+.header-area .menu {
+    width: 53%;
+    overflow: hidden;
+}
+.menu ul {
+    list-style: none;
+    margin: 0px;
+}
+.menu ul li {
+    float: left;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.menu ul li a {
+    color: #000000;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.menu ul li a:hover {
+    color: blue;
+    text-transform: uppercase;
+}
+/******************complete chepter 1******************/
+.smart1 {
+    margin-top: 80px;
+}
+.heading {
+    width: 90%;
+    float: left;
+    margin-left: 15px;
+}
+.icon {
+    width: 8%;
+    overflow: hidden;
+    padding-top: 122px;
+}
+.heading h3 {
+    color: #FF9900;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+.heading h1 {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 45px;
+    color: #000000;
+    line-height: 1.3em;
+    margin-bottom: 0px;
+}
+.heading p {
+    color: #31353B;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+}
+.icon ul {
+    list-style: none;
+    margin: 0px;
+}
+.icon ul li {
+    margin-top: 13px;
+    overflow: hidden;
+}
+.icon ul li a img {
+    width: 15px;
+}
+
+/*
+.search a img {
+    width: 63%;
+}
+*/
+
+.search {
+    margin-left: 45px;
+}
+
+.search input {
+    border: none;
+    width: 65%;
+}
+.search .text {
+    width: 44%;
+    float: left;
+}
+
+
